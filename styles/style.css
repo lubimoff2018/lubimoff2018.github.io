@@ -1,0 +1,128 @@
+/*.site-header{
+	height: 340px;
+	background-image: url("../images/barselona2.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: auto;
+}*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+ html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #183a87;
+
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+.site-header{
+	height: 600px; 
+	background: url("../images/ibiz1.jpg") no-repeat center top;
+}
+.site-header h1{
+	margin: 10px;
+	text-transform: uppercase;
+	float: left;
+	color: #dd120a;
+}
+.content{
+	overflow: hidden;
+	background-color: #fbef6e;
+
+}
+#main-menu{
+	float: right;
+
+}
+#main-menu ul{
+	/*margin-top: 20px;*/
+	
+}
+#main-menu ul li{
+	list-style: none;
+	margin-top: 10px;
+	margin-right: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	/*display: inline;*/
+}
+#main-menu ul li a{
+	text-decoration: none;
+	color: #945b54;
+}
+#main-menu ul li a:hover{
+	color: #f05f40;
+}
+.wrapper-col{
+	width: 100%;
+}
+.col-main{
+	box-sizing: border-box;
+	width: 80%;
+/position: relative;
+	float: left;
+	padding: 10px;
+	
+}
+
+.col-sidebar{
+
+	margin: 0;
+		
+	width: 20%;
+	float: right;
+	background: #eee;
+	box-sizing: border-box;
+	/*padding-bottom: 10px;
+	padding-top: 10px;*/
+}
+
+.col-sidebar ul li{
+	list-style: none;
+	/*padding-bottom: 5px;*/
+	padding: 10px 10%;
+}
+.col-sidebar ul li a,.footer a{
+	text-decoration: none;
+	/*padding: 20px 5%;*/
+	color: #482412;
+	cursor: pointer;
+	overflow: hidden;
+}
+.col-sidebar ul li a:hover,.footer a:hover{
+	color: #f05f40;
+}
+.col-sidebar h4{
+	text-decoration: none;
+	padding: 20px 5%;
+	color: #482412;
+}
+a{
+	outline: none;
+	text-decoration: none;
+}
+h3{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.footer{
+	padding:20px;
+	background-color: #847272;
+	
+}
